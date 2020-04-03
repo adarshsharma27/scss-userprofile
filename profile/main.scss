@@ -1,0 +1,166 @@
+@import "config";
+
+*{
+    font-family: 'Be Vietnam',sans-serif;
+   }
+
+   body{
+       display: flex;
+    
+       justify-content: center;
+       height: 100vh;
+       align-items:flex-start;
+       background-color:$bg-color;
+   margin-top: 5rem;
+  
+   
+    
+   }
+   .profile{
+ 
+    width:692px;
+    height:600px;
+    background-color: $bg-color;
+   
+}
+.profile-card{
+    width:400px;
+    height:620px;
+    margin:0 auto;
+    background-color: #ffff;
+    box-shadow: 0px 0px 18px rgba(84,100,122,0.35);
+    @include bord-radius(15px);
+ 
+    .profile-background{
+        @include bord-radius(15px);
+        position:relative;
+        height: 240px;
+      
+    }
+    
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 4px 4px 4px #dadada, -4px -4px 3.2px #ffff;
+}
+img.profile-image{
+
+    position: absolute;
+    left: 122px;
+    top: -46px;
+    box-shadow: 5px 5px 5px #dadada, -5px -5px 5px #f1f3f6;
+    @include bord-radius(50%)
+}
+.profile-content{
+    background-color:$footer-clr;
+height: 390px;
+margin-top: -18px;
+
+
+}
+h1{
+font-size:1.8rem;
+font-weight: 500;
+color:$txt-clr;
+text-align:center;
+padding-top: 56px;
+
+
+
+}
+p{
+    font-size:1.2rem;
+    color:#B3C9D4; 
+    font-weight: 600;
+    text-align:center;
+ 
+    line-height: 8px;
+    
+    
+    }
+.colr-styl{
+
+  
+    font-size:1.2rem;
+    font-weight: 600;
+    text-align:center;
+   
+
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    width: 100%;
+    height: 100%;
+
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa{
+    box-shadow: inset 5px 5px 5px #dadada, inset -5px -5px 5px #fafafa;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius:10px;
+    margin: 8px;
+    padding: 10px;
+    color:#C6D4DB;
+    box-sizing: border-box;
+   
+    cursor: pointer;
+}
+.fa:hover{
+    box-shadow:  5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+    background-color:$btn-clr;
+    color:white;
+    transition: all 0.8s ease-in;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 1rem;
+
+    aside{
+        text-align: center;
+        width:150px;
+    }
+h3{ 
+    font-size: 1.4rem;
+   color:$txt-clr;
+   text-align: center;
+}
+
+span{
+    color:#B3C9D4;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+}
+main{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 1rem;
+}
+button{
+    width:150px;
+    height:60px;
+    @include bord-radius(20px);
+    font-size:1.3rem;
+    background-color:$btn-clr;
+    color:#fff;
+    border: 1px solid $btn-clr;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+ }
+
+}

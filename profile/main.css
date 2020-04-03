@@ -1,0 +1,188 @@
+* {
+  font-family: 'Be Vietnam',sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #E4EFF4;
+  margin-top: 5rem;
+}
+
+.profile {
+  width: 692px;
+  height: 600px;
+  background-color: #E4EFF4;
+}
+
+.profile-card {
+  width: 400px;
+  height: 620px;
+  margin: 0 auto;
+  background-color: #ffff;
+  -webkit-box-shadow: 0px 0px 18px rgba(84, 100, 122, 0.35);
+          box-shadow: 0px 0px 18px rgba(84, 100, 122, 0.35);
+  border-radius: 15px;
+}
+
+.profile-card .profile-background {
+  border-radius: 15px;
+  position: relative;
+  height: 240px;
+}
+
+.profile-card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-box-shadow: 4px 4px 4px #dadada, -4px -4px 3.2px #ffff;
+          box-shadow: 4px 4px 4px #dadada, -4px -4px 3.2px #ffff;
+}
+
+.profile-card img.profile-image {
+  position: absolute;
+  left: 122px;
+  top: -46px;
+  -webkit-box-shadow: 5px 5px 5px #dadada, -5px -5px 5px #f1f3f6;
+          box-shadow: 5px 5px 5px #dadada, -5px -5px 5px #f1f3f6;
+  border-radius: 50%;
+}
+
+.profile-card .profile-content {
+  background-color: #F7FBFC;
+  height: 390px;
+  margin-top: -18px;
+}
+
+.profile-card h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #686F75;
+  text-align: center;
+  padding-top: 56px;
+}
+
+.profile-card p {
+  font-size: 1.2rem;
+  color: #B3C9D4;
+  font-weight: 600;
+  text-align: center;
+  line-height: 8px;
+}
+
+.profile-card .colr-styl {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile-card .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-card .fa-2x {
+  font-size: 2em;
+}
+
+.profile-card .fa {
+  -webkit-box-shadow: inset 5px 5px 5px #dadada, inset -5px -5px 5px #fafafa;
+          box-shadow: inset 5px 5px 5px #dadada, inset -5px -5px 5px #fafafa;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 8px;
+  padding: 10px;
+  color: #C6D4DB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.profile-card .fa:hover {
+  -webkit-box-shadow: 5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+          box-shadow: 5px 5px 5px #dadada,  -5px -5px 5px #fafafa;
+  background-color: #4AAEE7;
+  color: white;
+  -webkit-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
+}
+
+.profile-card section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 1rem;
+}
+
+.profile-card section aside {
+  text-align: center;
+  width: 150px;
+}
+
+.profile-card section h3 {
+  font-size: 1.4rem;
+  color: #686F75;
+  text-align: center;
+}
+
+.profile-card section span {
+  color: #B3C9D4;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.profile-card main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.profile-card button {
+  width: 150px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  background-color: #4AAEE7;
+  color: #fff;
+  border: 1px solid #4AAEE7;
+  cursor: pointer;
+}
+
+.profile-card button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+$bg-color:#E4EFF4;
+$btn-clr:#4AAEE7;
+$footer-clr:#F7FBFC;
+$txt-clr:#686F75;
+$btn-txt:#FFFFFF;
+
+@mixin bord-radius($value) {
+    border-radius: $value;
+}
